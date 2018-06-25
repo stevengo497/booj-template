@@ -1,3 +1,35 @@
-h1 {
-    color: green;
+
+.header {
+    background-image: linear-gradient(
+        to bottom,
+        rgba($color-primary, .6),
+        rgba($color-secondary, .6)),
+        url(/img/bg-header.jpg);
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
+    // border-top: 2rem solid rgba($color-primary, .6);
+    border-radius: 3px;
+
+    &__main {
+        text-align: center;
+        -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+        clip-path: polygon(50% 100%, 0 0, 100% 0);
+        height: 95vh;
+        position: relative;
+        background-color: $color-white;
+    }
+
+    &__logo {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+    }
+
+    &__booj {
+        animation: moveInScale 4s ease-out;
+    }
+
 }

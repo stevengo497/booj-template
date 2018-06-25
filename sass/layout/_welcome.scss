@@ -1,0 +1,16 @@
+.welcome {
+    width: 60%;
+    margin: 5rem auto;
+
+    &__text--main {
+        text-align: center;
+    }
+
+    &__text--sub {
+        text-align: left;
+    }
+}
+
+.slogan {
+    text-align: left;
+}

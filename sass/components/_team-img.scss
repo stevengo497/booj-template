@@ -1,0 +1,33 @@
+.team-img {
+    border-radius: 3px;
+    box-shadow: 0 1rem 2rem rgba($color-black, .5);
+    background-color: transparent;
+    height: 25vh;
+    width: 75%;
+    margin: 2rem;
+    position: relative;
+
+    &:hover {
+        transform: translateY(-1rem);
+        cursor: pointer;
+    }
+}
+
+.col-sm {
+    padding: 0;
+}
+
+.team-heading {
+    position: relative;
+    // top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(
+    to right,
+    rgba($color-primary, .7),
+    rgba($color-primary, .7));
+    padding: 0 2rem;
+    border-radius: 5rem;
+    width: 75%;
+    margin-top: 2rem;
+}

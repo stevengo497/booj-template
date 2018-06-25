@@ -1,1 +1,14 @@
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+
+@import "components/carousel";
+@import "components/team-img";
+
+@import "layout/clients";
 @import "layout/header";
+@import "layout/news";
+@import "layout/teams";
+@import "layout/welcome";
