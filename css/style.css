@@ -53,7 +53,7 @@ body {
   text-shadow: 0px 0px 2px #bf302a; }
 
 .heading-team {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #FFF;
   text-shadow: 0px 3px 2px #bf302a; }
 
@@ -69,31 +69,28 @@ body {
   background-color: transparent;
   height: 25vh;
   width: 75%;
-  margin: 2rem;
+  margin-top: 10rem;
   position: relative; }
   .team-img:hover {
     transform: translateY(-1rem);
     cursor: pointer; }
 
-.col-sm {
-  padding: 0; }
-
 .team-heading {
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: linear-gradient(to right, rgba(255, 64, 56, 0.7), rgba(255, 64, 56, 0.7));
+  background-color: #FF4038;
   padding: 0 2rem;
   border-radius: 5rem;
-  width: 75%;
-  margin-top: 2rem; }
+  width: 70%;
+  margin-top: 3rem; }
 
 .section-clients {
   background-color: #BF302A;
   height: 95vh;
   -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-  margin-top: 5rem;
+  margin-top: 10rem;
   border-radius: 3px;
   position: relative; }
 
@@ -113,6 +110,23 @@ body {
 .section__clients--logo {
   position: relative;
   margin-bottom: 1rem; }
+
+.footer {
+  background-color: #000;
+  height: 40vh;
+  color: #BFBEBC;
+  position: relative; }
+  .footer__text-box {
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .footer__logo {
+    width: 50%;
+    float: right; }
+  .footer__text {
+    margin-top: 5rem; }
 
 .header {
   background-image: linear-gradient(to bottom, rgba(255, 64, 56, 0.6), rgba(191, 48, 42, 0.6)), url(/img/bg-header.jpg);
@@ -170,3 +184,10 @@ body {
 
 .slogan {
   text-align: left; }
+
+.company-photo {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  margin-top: 3rem;
+  border-radius: 3px; }

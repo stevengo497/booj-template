@@ -4,7 +4,7 @@
     background-color: transparent;
     height: 25vh;
     width: 75%;
-    margin: 2rem;
+    margin-top: 10rem;
     position: relative;
 
     &:hover {
@@ -13,21 +13,19 @@
     }
 }
 
-.col-sm {
-    padding: 0;
-}
 
 .team-heading {
-    position: relative;
+    position: absolute;
     // top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: linear-gradient(
-    to right,
-    rgba($color-primary, .7),
-    rgba($color-primary, .7));
+    // background-image: linear-gradient(
+    // to right,
+    // rgba($color-primary, .7),
+    // rgba($color-primary, .7));
+    background-color: $color-primary;
     padding: 0 2rem;
     border-radius: 5rem;
-    width: 75%;
-    margin-top: 2rem;
+    width: 70%;
+    margin-top: 3rem;
 }
